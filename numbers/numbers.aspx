@@ -1,4 +1,4 @@
-﻿﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="numbers.aspx.vb" Inherits="numbers.numbers" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="numbers.aspx.vb" Inherits="numbers.numbers" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -75,8 +75,7 @@ select {
     <asp:DropDownList ID="numFx" runat="server" AutoPostBack="True" OnSelectedIndexChanged="numFx_SelectedIndexChanged">
         <asp:ListItem Text="Exponential" Value="exp"></asp:ListItem>
         <asp:ListItem Text="Logarithmic" Value="log"></asp:ListItem>
-        <asp:ListItem Text="Power" Value="pow"></asp:ListItem>        
-        <asp:ListItem Text="Round" Value="round"></asp:ListItem>
+        <asp:ListItem Text="Power" Value="pow"></asp:ListItem>      
         <asp:ListItem Text="Floor" Value="floor"></asp:ListItem>
         <asp:ListItem Text="Ceiling" Value="ceiling"></asp:ListItem>
         <asp:ListItem Text="Square Root" Value="sqrt"></asp:ListItem>
